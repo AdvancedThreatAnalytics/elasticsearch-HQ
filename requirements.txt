@@ -18,7 +18,7 @@ requests>=2.0.0, <3.0.0
 dogpile.cache == 0.6.5
 
 # Database
-SQLAlchemy==1.2.0
+SQLAlchemy==1.2.18
 Flask-SQLAlchemy==2.3.2
 Flask-Migrate
 
@@ -47,3 +47,4 @@ eventlet==0.23.0
 # Elasticsearch
 six==1.11.0
 python-dateutil==2.7.2
+mako>=1.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
