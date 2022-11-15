@@ -47,3 +47,4 @@ eventlet==0.23.0
 # Elasticsearch
 six==1.11.0
 python-dateutil==2.7.2
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
