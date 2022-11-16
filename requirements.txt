@@ -36,7 +36,7 @@ apscheduler==3.5.0
 Flask-APScheduler== 1.7.1
 
 # Socket
-python-engineio==3.0.0
+python-engineio==3.9.0
 python-socketio==2.1.0
 Flask-SocketIO==3.1.0
 eventlet==0.23.0
@@ -47,3 +47,4 @@ eventlet==0.23.0
 # Elasticsearch
 six==1.11.0
 python-dateutil==2.7.2
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
